@@ -1,3 +1,11 @@
+%This function takes an image,applies BTC on it.
+%It calculates mean,variance and bit map for all the blocks
+% It returns 
+% 1. parity of the image passed constructed from the bitmap over entire
+% image.
+% 2. bitmap of the image passsed over al the blocks
+% 3. secretData: its a 128x128x2 size information, in which 1st bit is
+% bitmap and second bit is from mean/variance
 function[parity,bitmap,secretData]=btc(image)
 [m1,n1]=size(image); 
 blk=4; %block size
