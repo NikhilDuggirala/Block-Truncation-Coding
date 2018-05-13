@@ -1,5 +1,5 @@
 %Hybrid authentication and tamper protection
-
+% source : document from my guide, for publishing
 wim=imread('D:\mypic.jpg'); %watermark image
 wim=imresize(wim,[128,128]);
 wim=rgb2gray(wim);  
